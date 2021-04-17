@@ -38,16 +38,14 @@ const Dashboard: React.FC = () => {
   async function handleAddFood(
     food: Omit<IFoodPlate, 'id' | 'available'>,
   ): Promise<void> {
-    try {
-      const response = await api.post<IFoodPlate>('foods', {
+    api
+      .post<IFoodPlate>('foods', {
         ...food,
         available: true,
+      })
+      .then(response => {
+        setFoods([response.data, ...foods]);
       });
-
-      setFoods([response.data, ...foods]);
-    } catch (err) {
-      console.log(err);
-    }
   }
 
   async function handleUpdateFood(

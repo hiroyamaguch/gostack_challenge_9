@@ -2,17 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import ReactModal from 'react-modal';
 
-interface IFoodPlate {
-  id: number;
-  name: string;
-  image: string;
-  price: string;
-  description: string;
-  available: boolean;
-}
-
 interface IModalProps {
-  children: any;
+  children: React.ReactNode;
   isOpen: boolean;
   setIsOpen: () => void;
 }
