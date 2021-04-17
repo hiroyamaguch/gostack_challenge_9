@@ -5,7 +5,9 @@ Diretório do projeto original nest [link](https://github.com/rocketseat-educati
 Este é o front-end web desenvolvido para o desafio GoRestaurant Web do curso GoStack da Rocketseat. O front-end mobile dessa aplicação está disponível [aqui](https://github.com/hiroyamaguch/gostack_challenge_10).
 
 ## Layout web
-![Web 1](https://github.com/hiroyamaguch/assets/blob/423f8861506e477da828c4643fac4914073ce7d0/challenge5_6/web1.png)
+![Web 1](https://github.com/hiroyamaguch/assets/blob/19975a853f6b95d7fb83c9415d3d83f9fb4711db/challenge9/web1.png)
+
+![Web 2](https://github.com/hiroyamaguch/assets/blob/19975a853f6b95d7fb83c9415d3d83f9fb4711db/challenge9/web2.png)
 
 # Tecnologias utilizadas
 - HTML / CSS / JS
